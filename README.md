@@ -59,27 +59,27 @@ Training a GAN byitself is already a fickle process, so concurrently training tw
 Here are some results from horse2zebra. Original horse image on the left and syntheticly stylized as a zebra on the right.
 
 <p align="center">
-    <img src="resources/horse2zebra_horse_0.jpg" height="200px">
-    <img src="resources/horse2zebra_zebra_0.jpg" height="200px">
+    <img src="resources/horse2zebra_horse_0.png" height="200px">
+    <img src="resources/horse2zebra_zebra_0.png" height="200px">
 </p>
 <p align="center">
-    <img src="resources/horse2zebra_horse_1.jpg" height="200px">
-    <img src="resources/horse2zebra_zebra_1.jpg" height="200px">
+    <img src="resources/horse2zebra_horse_1.png" height="200px">
+    <img src="resources/horse2zebra_zebra_1.png" height="200px">
 </p>
 <p align="center">
-    <img src="resources/horse2zebra_horse_2.jpg" height="200px">
-    <img src="resources/horse2zebra_zebra_2.jpg" height="200px">
+    <img src="resources/horse2zebra_horse_2.png" height="200px">
+    <img src="resources/horse2zebra_zebra_2.png" height="200px">
 </p>
 
 Unfortunately, learning the reverse function was a bit more difficult. Original zebra image on the left and synthetically stlized as a horse on the right.
 
 <p align="center">
-    <img src="resources/zebra2horse_zebra_0.jpg" height="200px">
-    <img src="resources/zebra2horse_horse_0.jpg" height="200px">
+    <img src="resources/zebra2horse_zebra_0.png" height="200px">
+    <img src="resources/zebra2horse_horse_0.png" height="200px">
 </p>
 <p align="center">
-    <img src="resources/zebra2horse_zebra_1.jpg" height="200px">
-    <img src="resources/zebra2horse_horse_1.jpg" height="200px">
+    <img src="resources/zebra2horse_zebra_1.png" height="200px">
+    <img src="resources/zebra2horse_horse_1.png" height="200px">
 </p>
 
 On a GTX1070, inference can be done in approximately 0.0113 seconds or approximately at a frequency of 88 Hz for a 256 x 256 x 3 image (ignoring time spent loading the image and moving it onto GPU memory). It would be interesting to try applying this in high performance, real-time environments. 
